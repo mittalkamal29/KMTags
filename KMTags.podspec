@@ -78,9 +78,8 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-
-  s.source       = { :git => "https://github.com/woodenlabs/KMTags.git", :commit => "6992ae1a42bbee8e7608fd3b20710505170ebd23" }
-
+  s.source       = { :git => "https://github.com/woodenlabs/KMTags.git", :branch => "master",
+                   :tag => build2 }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
